@@ -5,7 +5,6 @@ import SHOES from '../../data';
 import ShoeCard from '../ShoeCard';
 
 const ShoeGrid = () => {
-  return null;
   return (
     <Wrapper>
       {SHOES.map((shoe) => (
@@ -15,6 +14,10 @@ const ShoeGrid = () => {
   );
 };
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+`;
 
 export default ShoeGrid;
