@@ -5,6 +5,7 @@ import SHOES from '../../data';
 import ShoeCard from '../ShoeCard';
 
 const ShoeGrid = () => {
+  return null;
   return (
     <Wrapper>
       {SHOES.map((shoe) => (
